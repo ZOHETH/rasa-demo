@@ -5,13 +5,17 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- 类别:
+- 参与抽奖:
+    use_entities: true
+- 担心理赔:
+    use_entities: true
+- 需要时联系:
+    use_entities: true
+- 不购买原因:
     use_entities: true
 - 不信任:
     use_entities: true
 - 没钱:
-    use_entities: true
-- 理赔:
     use_entities: true
 - 交费压力:
     use_entities: true
@@ -23,9 +27,88 @@ intents:
     use_entities: true
 - 跟家人商量:
     use_entities: true
-- 我对保险没兴趣:
+- 正常对话:
     use_entities: true
-entities: []
+- 询问福利:
+    use_entities: true
+- 有事再联系:
+    use_entities: true
+- 产品疑问:
+    use_entities: true
+- 成交后:
+    use_entities: true
+- 有意愿没时间:
+    use_entities: true
+- 消费者情绪-生气:
+    use_entities: true
+- 购买意愿-有:
+    use_entities: true
+- 产品相关对话:
+    use_entities: true
+- 友善:
+    use_entities: true
+- 参与直播:
+    use_entities: true
+- 考虑中:
+    use_entities: true
+- 产品咨询:
+    use_entities: true
+- 有意愿 之后聊:
+    use_entities: true
+- 退保:
+    use_entities: true
+- 脏话:
+    use_entities: true
+- 家人不同意:
+    use_entities: true
+- 闲聊:
+    use_entities: true
+- 再看看:
+    use_entities: true
+- 不友善:
+    use_entities: true
+- 表情n连:
+    use_entities: true
+- 反向推广:
+    use_entities: true
+- 确认:
+    use_entities: true
+- 退钱:
+    use_entities: true
+- 已有保险:
+    use_entities: true
+- 质疑保险:
+    use_entities: true
+- 系统消息:
+    use_entities: true
+- 骗人:
+    use_entities: true
+- 要求帮忙:
+    use_entities: true
+- 生活负担:
+    use_entities: true
+- 极其不友善:
+    use_entities: true
+entities:
+- 保险类型
+- 位置信息
+- 住院信息
+- 家人
+- 年龄
+- 身体状况
+- 疾病类型
+- 关心问题
+- 竞品
+- 产品名称
+- 脏话
+- 同行
+- '原因: 没钱'
+- 已有保险
+- '原因: 有钱'
+- '原因: 不符合'
+- '原因: 赔的少'
+- '原因: 不相信'
+- '原因: 家人埋怨'
 slots: {}
 responses: {}
 actions: []
