@@ -29,8 +29,6 @@ intents:
     use_entities: true
 - 正常对话:
     use_entities: true
-- 询问福利:
-    use_entities: true
 - 有事再联系:
     use_entities: true
 - 产品疑问:
@@ -53,19 +51,11 @@ intents:
     use_entities: true
 - 产品咨询:
     use_entities: true
-- 有意愿 之后聊:
-    use_entities: true
 - 退保:
-    use_entities: true
-- 脏话:
     use_entities: true
 - 家人不同意:
     use_entities: true
 - 闲聊:
-    use_entities: true
-- 再看看:
-    use_entities: true
-- 不友善:
     use_entities: true
 - 表情n连:
     use_entities: true
@@ -77,17 +67,51 @@ intents:
     use_entities: true
 - 已有保险:
     use_entities: true
-- 质疑保险:
-    use_entities: true
 - 系统消息:
-    use_entities: true
-- 骗人:
     use_entities: true
 - 要求帮忙:
     use_entities: true
 - 生活负担:
     use_entities: true
 - 极其不友善:
+    use_entities: true
+- 交代信息:
+    use_entities: true
+- 可能有相关疾病:
+    use_entities: true
+- 关心福利:
+    use_entities: true
+- 想要进一步了解:
+    use_entities: true
+- 关心产品细节:
+    use_entities: true
+- 工作繁忙:
+    use_entities: true
+- 不信任-公司:
+    use_entities: true
+- 不信任-保险:
+    use_entities: true
+- 拒绝联系:
+    use_entities: true
+- 同行:
+    use_entities: true
+- 续保咨询:
+    use_entities: true
+- 退费进度咨询:
+    use_entities: true
+- 自身疾病:
+    use_entities: true
+- 觉得当前产品不适合:
+    use_entities: true
+- 先看资料:
+    use_entities: true
+- 认可:
+    use_entities: true
+- 催促:
+    use_entities: true
+- 产品质疑:
+    use_entities: true
+- 不理解:
     use_entities: true
 entities:
 - 保险类型
@@ -109,6 +133,21 @@ entities:
 - '原因: 赔的少'
 - '原因: 不相信'
 - '原因: 家人埋怨'
+- 原因
+- 新测试
+- 家庭情况
+- 复杂不理解
+- 高危职业
+- 请求退款
+- 地名
+- 正在进行产品对比
+- 购买方式
+- 投保咨询-老年投保类型
+- 保险价格
+- 询问福利
+- 首期保费
+- 保障范围
+- '关心: 住院'
 slots: {}
 responses: {}
 actions: []
